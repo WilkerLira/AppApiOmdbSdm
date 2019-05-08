@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">AppApiOmdbSdm</string>
+    <string name="app_name">AppOmdbApiSdm</string>
+    <string name="navigation_drawer_aberto">NavigationDrawer aberto!!</string>
+    <string name="navigation_drawer_fechado">NavigationDrawer fechado!!</string>
+    <string name="titutlo_nav_header">Api Omdb</string>
 </resources>
