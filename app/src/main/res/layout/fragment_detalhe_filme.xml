@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <!--https://medium.com/google-developer-experts/android-grid-layout-1faf0df8d6f2-->
+    <GridLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/layout_item"
+                android:layout_margin="16dp"
+                android:layout_marginBottom="50dp"
+                android:columnCount="2">
+
+        <ImageView android:id="@+id/posterImageView"
+                   android:layout_width="0dp"
+                   android:layout_height="300dp"
+                   android:layout_columnSpan="2"
+                   android:layout_gravity="fill_horizontal"
+                   android:foregroundGravity="center"
+                   android:src="@drawable/app_icon"/>
+
+        <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="@string/title"
+                android:layout_columnSpan="2"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/yearTextView"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:gravity="center|left"
+                android:text="@string/year"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/yearValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/year"/>
+
+        <TextView
+                android:id="@+id/ratedTextView"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:gravity="center|left"
+                android:text="@string/rated"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/ratedValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/rated"/>
+
+        <TextView
+                android:id="@+id/releasedTextView"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:gravity="center|left"
+                android:text="@string/released"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/releasedValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/released"/>
+
+        <TextView
+                android:id="@+id/runtimeTextView"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:gravity="center|left"
+                android:text="@string/runtime"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/runtimeValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/runtime"/>
+
+        <TextView
+                android:id="@+id/genreTextView"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:gravity="center|left"
+                android:text="@string/genre"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/genreValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/genre"/>
+
+        <TextView
+                android:id="@+id/directorTextView"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:gravity="center|left"
+                android:text="@string/director"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/directorValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/director"/>
+
+        <TextView
+                android:id="@+id/languageTextView"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:gravity="center|left"
+                android:text="@string/language"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/languageValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/language"/>
+
+        <TextView
+                android:id="@+id/countryTextView"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:gravity="center|left"
+                android:text="@string/country"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/countryValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/country"/>
+
+        <TextView
+                android:id="@+id/awardsTextView"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:gravity="center|left"
+                android:text="@string/awards"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/awardsValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/awards"/>
+
+        <TextView
+                android:id="@+id/actorsTextView"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="@string/actors"
+                android:layout_columnSpan="2"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/actorsValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnSpan="2"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/actors"/>
+
+        <TextView
+                android:id="@+id/plotTextView"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="@string/plot"
+                android:layout_columnSpan="2"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/plotValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnSpan="2"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/plot"/>
+
+        <TextView
+                android:id="@+id/ratingsTextView"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="@string/ratings"
+                android:layout_columnSpan="2"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/sourceUmTextView"
+                android:layout_width="150dp"
+                android:layout_height="52dp"
+                android:gravity="center|left"
+                android:text="@string/source"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/sourceUmValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/value"/>
+
+        <TextView
+                android:id="@+id/sourceDoisTextView"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:gravity="center|left"
+                android:text="@string/source"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/sourceDoisValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/value"/>
+
+        <TextView
+                android:id="@+id/sourceTresTextView"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:gravity="center|left"
+                android:text="@string/source"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/sourceTresValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/value"/>
+
+        <TextView
+                android:id="@+id/metascoreTextView"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:gravity="center|left"
+                android:text="@string/metascore"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/metascoreValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/metascore"/>
+
+        <TextView
+                android:id="@+id/imdbRatingTextView"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:gravity="center|left"
+                android:text="@string/imdbrating"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/imdbRatingValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/imdbrating"/>
+
+        <TextView
+                android:id="@+id/imdbVotesTextView"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:gravity="center|left"
+                android:text="@string/imdbvotes"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/imdbVotesValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/imdbvotes"/>
+
+        <TextView
+                android:id="@+id/typeTextView"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:gravity="center|left"
+                android:text="@string/type"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/typeValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/type"/>
+
+        <TextView
+                android:id="@+id/dvdTextView"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:gravity="center|left"
+                android:text="@string/dvd"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/dvdValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/dvd"/>
+
+        <TextView
+                android:id="@+id/boxOfficeTextView"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:gravity="center|left"
+                android:text="@string/boxoffice"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/boxOfficeValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/boxoffice"/>
+
+        <TextView
+                android:id="@+id/productionTextView"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+                android:gravity="center|left"
+                android:text="@string/production"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/productionValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/production"/>
+
+        <TextView
+                android:id="@+id/websiteTextView"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="@string/website"
+                android:layout_columnSpan="2"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/websiteValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnSpan="2"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:gravity="center_vertical"
+                android:text="@string/website"/>
+
+        <TextView
+                android:id="@+id/writerTextView"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="@string/writer"
+                android:layout_columnSpan="2"
+                android:layout_gravity="fill_horizontal"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+        <TextView
+                android:id="@+id/writerValueTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal|center_vertical"
+                android:layout_columnSpan="2"
+                android:text="@string/writer"/>
+
+    </GridLayout>
+</android.support.v4.widget.NestedScrollView>

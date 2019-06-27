@@ -1,6 +1,38 @@
 <resources>
-    <string name="app_name">AppOmdbApiSdm</string>
+    <string name="app_name">Omdb Api Sdm</string>
     <string name="navigation_drawer_aberto">NavigationDrawer aberto!!</string>
     <string name="navigation_drawer_fechado">NavigationDrawer fechado!!</string>
     <string name="titutlo_nav_header">Api Omdb</string>
+
+    <!--Adicionais-->
+    <string name="title">Título</string>
+    <string name="year">Ano</string>
+    <string name="rated">Avalidado(a)</string>
+    <string name="released">Lançamento</string>
+    <string name="runtime">Tempo de Execução</string>
+    <string name="genre">Gênero</string>
+    <string name="director">Diretor</string>
+    <string name="writer">Escritor(es)</string>
+    <string name="actors">Atores</string>
+    <string name="plot">Enrredo</string>
+    <string name="language">Indioma</string>
+    <string name="country">País</string>
+    <string name="awards">Prêmios</string>
+    <string name="ratings">Classificações</string>
+    <string name="source">Source</string>
+    <string name="value">Valor</string>
+    <string name="poster">Poster</string>
+    <string name="metascore">Meta Pontução</string>
+    <string name="imdbrating">Avaliação OMDb</string>
+    <string name="imdbvotes">Votos OMDb</string>
+    <string name="imdbid">OMDbID</string>
+    <string name="type">Tipo</string>
+    <string name="dvd">Lançamento DVD</string>
+    <string name="boxoffice">Arrecadação</string>
+    <string name="production">Produção</string>
+    <string name="website">Site</string>
+
+    <string name="menu_aberto">Menu Aberto</string>
+    <string name="menu_fechado">Menu Fechado</string>
+    <string name="no_data_available">Nada encontrado!</string>
 </resources>

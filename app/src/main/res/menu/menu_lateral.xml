@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- RecyclerView -->
+    <item
+        android:id="@+id/testeRecyclerViewMenuItem"
+        android:icon="@drawable/ic_ator"
+        android:title="Filmes" />
+    <!-- Sair -->
+    <item
+        android:id="@+id/sairMenuItem"
+        android:icon="@drawable/icone_sair"
+        android:title="Sair" />
+</menu>

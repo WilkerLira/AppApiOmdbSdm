@@ -3,7 +3,7 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/drawerLayout"
+        android:id="@+id/menuLateralDrawerLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
@@ -11,17 +11,17 @@
 
     <!-- Frame principal -->
     <include
-            layout="@layout/conteudo_main"
+            layout="@layout/frame_main"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
     <!-- Menu lateral -->
     <android.support.design.widget.NavigationView
-            android:id="@+id/navigationView"
+            android:id="@+id/menuNavigationView"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="start"
             android:fitsSystemWindows="true"
             app:headerLayout="@layout/cabecalho_menu_lateral"
-            app:menu="@menu/menu_drawer"/>
+            app:menu="@menu/menu_lateral"/>
 </android.support.v4.widget.DrawerLayout>
